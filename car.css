@@ -1,0 +1,208 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#home {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Q2FyfHx8fHx8MTcxMzM1Nzk4Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400") no-repeat center center/cover;
+    background-size: cover;
+}
+
+.heading {
+    width: 40%;
+    padding: 20px;
+    margin: 35px;
+    margin-top: 35px;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+.cont1 {
+    width: 45%;
+    margin: 24px;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.cont2 {
+    width: 75%;
+
+    margin: 25px;
+    padding: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    color: aliceblue;
+    margin: 30px;
+}
+
+
+
+
+#booking {
+    align-items: center;
+}
+
+
+
+#availability {
+    align-items: center;
+}
+
+
+
+.submit {
+    margin-top: 8px;
+}
+
+.details {
+    width: 35%;
+    padding: 10px;
+    margin: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-button{
+    display: flex;
+}
+.form-button input{
+    flex: 1;
+    width: 100px;
+    margin:10%;
+}
+
+#contactus {
+    width: 100%;
+    color: whitesmoke;
+    background-color: grey;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 12px;
+}
+#availability-form h1{
+    font-weight: 700;
+    color: aliceblue;
+}
+.details,.details option{
+    font-weight: 600;
+}
+#availability-form{
+    padding: 350px;
+    height: 690px;
+}
+#availability{
+    background-image: url('https://images.unsplash.com/photo-1485291571150-772bcfc10da5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Q2FyfHx8fHx8MTcxMzk0ODE2NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+    /* margin-top: 20%; */
+    height: 700px;
+}
+.availability-content{
+    height: 700px;
+}
+
+.main{
+    height:100%;
+    width: fit-content;
+    margin-left: 35%;
+    /*margin-top: 3%;*/
+    margin-bottom: 20px;
+   
+}
+
+.image img{
+    height: 400px;
+    width: 450px;
+}
+
+.info button{
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.mini-image img{
+    height: 400px;
+    width: 500px;
+}
+
+.prime-image img{
+    height: 400px;
+    width: 560px;
+}
+
+
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.popup-content{
+    height: 200px;
+    width: 500px;
+    background: #fff;
+    /* padding: 25px; */
+    border-radius: 5px;
+    text-align: center;
+}
+.popup-form input{
+    width: fit-content;
+    border: none;
+    text-align: start;
+}
+.popup-form #close{
+    margin-left: 1%;
+}
+.popup-form{
+    color: brown;
+}
+.popup-content img{
+    /* margin-left: auto;
+    margin-right: auto; */
+    width : 250px;
+    height: 250px;
+    display: block;
+    margin: 25px auto;
+}
+.popup-content .flex
+{
+    width: 500px;
+    margin-left: auto;
+    margin: auto;
+    margin-right: auto;
+    align-content: center;
+    display: flex;
+    text-align: center;
+}
+.popup-content .flex .flex-content{
+    width: 500px;
+    display: flex;
+    text-align: center;
+}
+
+
+.navbar-brand{
+    font-weight: bold;
+    color: navy;
+}
